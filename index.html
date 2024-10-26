@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
+    <title>ID Card</title>
+</head>
+
+<body>
+
+    <!--
+    Card details
+
+        ID details:
+        -  Name:
+        -  Handler: @name
+        -  Age:
+        -  Course/Department:
+        -  Year Level:
+        -  Motto in life:
+-->
+    <main>
+        <article class="id-card">
+            <header class="id-card-header">
+                <img src="img/radyongaulo.jpg" alt="">
+                <h1 class="name">Thom Yorke</h1>
+                <h2 class="handler">@thom.yorke</h2>
+                <h2 class="institution">University of Exeter </h2>
+            </header>
+            <section class="id-card-details">
+                <p>
+                    <strong>Age:</strong>
+                    <span id="age">56</span>
+                </p>
+                <p>
+                    <strong>Course:</strong>
+                    <span id="course">Bachelor of Science in English and Fine Arts</span>
+                </p>
+                <p>
+                    <strong>Year Level:</strong>
+                    <span id="year">4th Year</span>
+                </p>
+                <p>
+                    <strong>Motto in Life:</strong>
+                    <span id="motto">"It annoys me how pretty my voice is."</span>
+                </p>
+            </section>
+            <footer class="id-card-footer">
+                <p>ID: 2024300639</p>
+            </footer>
+            <!-- update button -->
+            <button id="updateButton">Update Details</button>
+        </article>
+
+    </main>
+    <script src="script.js"></script>
+
+
+</body>
+
+</html>
